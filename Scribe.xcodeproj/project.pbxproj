@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F82720192097481000E15B54 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82720182097481000E15B54 /* CircleButton.swift */; };
+		F827201D209757D800E15B54 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F827201C209757D800E15B54 /* test.m4a */; };
 		F8FBC6702096908000220258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FBC66F2096908000220258 /* AppDelegate.swift */; };
 		F8FBC6722096908000220258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FBC6712096908000220258 /* ViewController.swift */; };
 		F8FBC6752096908000220258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FBC6732096908000220258 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F82720182097481000E15B54 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		F827201C209757D800E15B54 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 		F8FBC66C2096908000220258 /* Scribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FBC66F2096908000220258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8FBC6712096908000220258 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8272015209747DD00E15B54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F82720182097481000E15B54 /* CircleButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8272016209747E300E15B54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F8FBC6712096908000220258 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F8272017209747EC00E15B54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F827201A209751D000E15B54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F827201C209757D800E15B54 /* test.m4a */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F8FBC6632096907F00220258 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +89,11 @@
 		F8FBC66E2096908000220258 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				F827201A209751D000E15B54 /* Resources */,
+				F8272017209747EC00E15B54 /* Model */,
+				F8272015209747DD00E15B54 /* View */,
+				F8272016209747E300E15B54 /* Controller */,
 				F8FBC66F2096908000220258 /* AppDelegate.swift */,
-				F8FBC6712096908000220258 /* ViewController.swift */,
 				F8FBC6732096908000220258 /* Main.storyboard */,
 				F8FBC6762096908400220258 /* Assets.xcassets */,
 				F8FBC6782096908400220258 /* LaunchScreen.storyboard */,
@@ -122,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F827201D209757D800E15B54 /* test.m4a in Resources */,
 				F8FBC67A2096908400220258 /* LaunchScreen.storyboard in Resources */,
 				F8FBC6772096908400220258 /* Assets.xcassets in Resources */,
 				F8FBC6752096908000220258 /* Main.storyboard in Resources */,
@@ -135,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82720192097481000E15B54 /* CircleButton.swift in Sources */,
 				F8FBC6722096908000220258 /* ViewController.swift in Sources */,
 				F8FBC6702096908000220258 /* AppDelegate.swift in Sources */,
 			);
